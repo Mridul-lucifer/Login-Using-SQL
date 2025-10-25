@@ -4,11 +4,8 @@ Basic Login Frontend Backed for WEB
 
 # Server Configuration
 PORT=3000
-
-# PostgreSQL (Neon) Database URL
 DATABASE_URL=postgresql://<username>:<password>@<your-neon-host>/<database>?sslmode=require
 
-# JWT Secret for Authentication
 JWT_SECRET=your_jwt_secret_key
 
 
@@ -16,7 +13,7 @@ JWT_SECRET=your_jwt_secret_key
 VITE_API_URL=http://localhost:3000/api
 
 
-🪄 Features
+# 🪄 Features
 
 ✅ Secure user signup and login (JWT)
 ✅ Responsive UI built with Tailwind CSS
